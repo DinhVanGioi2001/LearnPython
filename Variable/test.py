@@ -8,4 +8,4 @@
 # print(s[-4:])
 age = int(input())
 name = input()
-print("In 15 years age of", name, "is", age)
+print("In 15 years age of", name, "is", age)    
