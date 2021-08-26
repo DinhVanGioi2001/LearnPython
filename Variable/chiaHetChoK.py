@@ -5,9 +5,6 @@ for i in range(0, len(arr)):
 tmp = arr[1]
 count = 1
 result = []
-'''VD: 10 6 40 
-6*2 % 10 = 2    6*3 % 10 = 8...
-2, 8,... la nhung ket qua can in ra man hinh'''
 while tmp <= arr[2]:
     # count += 1  Khong de tren dau: Vd 3 6 40 thi ket qua la 9 15... Thieu 3 o tren dau
     tmp = arr[1] * count
