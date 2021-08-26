@@ -10,5 +10,5 @@ while test:
             s[i+1] = int(s[i+1]) + 1 # chuoi tren tro thanh 55321
     print(s[-1], end='') #in ra ki tu cuoi cung la ki tu 1
     for i in range(0, len(s) - 1): #in them so 0 dang sau
-        print("0", sep='', end='')
+        print("0", end='')
     print("")
