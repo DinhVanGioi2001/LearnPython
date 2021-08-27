@@ -13,3 +13,4 @@ for i in range(1, n):
         check = 0
 if check == 1:
     print(a[-1] + 1)
+# wa
