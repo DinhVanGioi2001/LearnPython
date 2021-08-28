@@ -11,6 +11,7 @@ for i in range(1, n):
     else:
         print(minNum)
         check = 0
+        break
 if check == 1:
     print(a[-1] + 1)
 # wa
