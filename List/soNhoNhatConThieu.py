@@ -1,17 +1,14 @@
 n = int(input())
-s = input()
-a = s.split()
+arr = input().split()
 for i in range(0, n):
-    a[i] = int(a[i])
-minNum = a[0] + 1
+    arr[i] = int(arr[i])
 check = 1
-for i in range(1, n):
-    if minNum == a[i]:
-        minNum += 1
-    else:
-        print(minNum)
+arr.sort() # can sap xep lai vi co the mang chua theo thu tu
+for i in range(0, n-1):
+    if arr[i+1] - arr[i] > 1: # kiem tra neu 2 ptu chenh nhau hay khong
+        print(arr[i] + 1) # in ra a[i] + 1 la ptu nho nhat
         check = 0
         break
-if check == 1:
-    print(a[-1] + 1)
-# wa
+
+if check:
+    print(arr[n-1] + 1)
