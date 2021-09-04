@@ -1,5 +1,7 @@
 import math
 def lcm(n, m):
+    if n % 2 == 0 and m % 2 == 0:
+        return 0
     while m > 0:
         t = n % m
         n = m
